@@ -76,7 +76,7 @@ func SoapClientWithConfig(wsdl string, httpClient *http.Client, config *Config) 
 }
 
 // Client struct hold all the information about WSDL,
-// request and response of the server
+// request and response of the server.
 type Client struct {
 	HTTPClient   *http.Client
 	AutoAction   bool
